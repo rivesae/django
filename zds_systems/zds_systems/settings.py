@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-_4je_u=r2#9z#%%e29vjk7u9rs!%cte0k0$u15n@)hp%)s-v5b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [portal.ziondiagnosticssolutions.com]
 
 
 # Application definition
