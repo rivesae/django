@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ user.user_fname }} {{ user.user_lname }}
+{% endblock %}
+
+{% block content %}
+<h1> {{ user.user_fname }} {{ user.user_lname }} </h1>
+<p class="text-muted">{{ user.user_email }}</p>
+<p>Position: {{ user.user_position }}</p>
+<div class="img-responsive text-center">
+    <img src="">
+</div>
+{% endblock %}
